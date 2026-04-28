@@ -1,0 +1,117 @@
+{
+  "model": "llama3.2-3b",
+  "condition": "C1",
+  "label": "Baseline (Lecture Only)",
+  "n": 5,
+  "accuracy": 0.8,
+  "results": [
+    {
+      "model": "llama3.2-3b",
+      "condition": "C1",
+      "question": "Which logical fallacy is used in the text?\nLast year, the city of Hillsdale allocated more money to public parks. This year, however, littering increased, so the increase in park funding must have been responsible.",
+      "choices": [
+        "false causation: the assumption that because two things happened together, one caused the other",
+        "false dichotomy: an argument that presents only two choices when more options exist"
+      ],
+      "gold_answer": 0,
+      "predicted_answer": 0,
+      "is_correct": true,
+      "grade": "grade8",
+      "subject": "language science",
+      "topic": "writing-strategies",
+      "skill": "Classify logical fallacies",
+      "has_hint": false,
+      "response": "Answer: A\n\nThe logical fallacy used in the text is false causation, because it assumes that because two things happened together (the increase in park funding and the increase in littering), one caused the other. The text implies that the increased funding for public parks led to an increase in littering, but there is no evidence provided to support this claim.",
+      "lecture": "A strong argument uses valid reasoning and logic in support of a claim. When an argument or claim introduces irrelevant information or misrepresents the issues at hand, it may be committing a logical fallacy. Logical fallacies can hurt a writer's credibility and can lead readers to draw false conclusions.\nA logical fallacy may present irrelevant information:\nFallacy | Description\nad hominem | a personal attack meant to discredit one's opponent\nappeal to nature | an argument that assumes the natural choice is always the best choice\nbandwagon fallacy | an argument that assumes the popular choice is always the best choice\ncircular reasoning | an argument that supports a claim with the claim itself\nguilt by association | an unfair negative association with another person or group that is intended to discredit someone or something\nred herring | the use of a completely unrelated topic in support of a claim\nA logical fallacy may misrepresent the issues at hand:\nFallacy | Description\nfalse causation | the assumption that because two things happened together, one caused the other\nfalse dichotomy | an argument that presents only two choices when more options exist\nhasty generalization | a very broad claim based on very little evidence\nstraw man | a misrepresentation of an opponent's position that makes it easier to argue against\n",
+      "hint": "",
+      "solution": "The text argues that increased park funding was responsible for an increase in littering. However, even though littering increased after funding to parks was increased, that doesn't necessarily mean that the funding was responsible. This illustrates a type of logical fallacy known as false causation."
+    },
+    {
+      "model": "llama3.2-3b",
+      "condition": "C1",
+      "question": "Complete the sentence.\nIn this chemical reaction, ammonium nitrate is a ().",
+      "choices": [
+        "reactant",
+        "product"
+      ],
+      "gold_answer": 0,
+      "predicted_answer": 1,
+      "is_correct": false,
+      "grade": "grade7",
+      "subject": "natural science",
+      "topic": "chemistry",
+      "skill": "Identify reactants and products",
+      "has_hint": true,
+      "response": "Answer: B\n\nIn this chemical reaction, ammonium nitrate is a product because it is formed from other substances during the reaction. According to the lecture, products are the substances that are produced by the chemical reaction, and they are created when the atoms of the original reactants are rearranged.",
+      "lecture": "A chemical change occurs when new substances are formed from existing substances. This process is called a chemical reaction.\nIn a chemical reaction, one or more substances change into one or more different substances. During the reaction, the atoms of the original substances are rearranged to form other substances.\nThe original substances in a chemical reaction are called reactants. These substances react, or go through a chemical change.\nThe substances that are formed in a chemical reaction are called products. These substances are produced by the chemical reaction.\nSo, in a chemical reaction, reactants go through a chemical change to form products.",
+      "hint": "This passage describes a chemical reaction. Read the passage. Then, follow the instructions below.\nTo help relieve pain during a dental visit, a dentist may give a patient nitrous oxide. Nitrous oxide is made in factories by carefully heating ammonium nitrate. At 170°C, ammonium nitrate breaks down and forms a mixture of nitrous oxide gas and water vapor. After the mixture is collected, the water vapor is separated from the nitrous oxide gas.",
+      "solution": "Read the underlined text carefully. Look for information about what happens to ammonium nitrate in this chemical reaction.\nTo help relieve pain during a dental visit, a dentist may give a patient nitrous oxide. Nitrous oxide is made in factories by carefully heating ammonium nitrate. At 170°C, ammonium nitrate breaks down and forms a mixture of nitrous oxide gas and water vapor. After the mixture is collected, the water vapor is separated from the nitrous oxide gas.\nThe underlined text tells you that when ammonium nitrate breaks down, nitrous oxide and water are formed. When ammonium nitrate reacts, or goes through a chemical change, its atoms are rearranged to form nitrous oxide and water. Because ammonium nitrate reacts in this chemical reaction, ammonium nitrate is a reactant."
+    },
+    {
+      "model": "llama3.2-3b",
+      "condition": "C1",
+      "question": "Select the mixture.",
+      "choices": [
+        "oxygen",
+        "blocks"
+      ],
+      "gold_answer": 1,
+      "predicted_answer": 1,
+      "is_correct": true,
+      "grade": "grade2",
+      "subject": "natural science",
+      "topic": "physics",
+      "skill": "Identify mixtures",
+      "has_hint": false,
+      "response": "Answer: B\n\nExplanation: Oxygen is a pure substance, made of only one type of matter. Blocks, on the other hand, can be made of different materials such as wood, metal, or plastic, which are mixed together to form blocks. This meets the definition of a mixture, which is made of two or more types of matter mixed together.",
+      "lecture": "A pure substance is made of only one type of matter.\nA mixture is made of two or more types of matter mixed together.",
+      "hint": "",
+      "solution": ""
+    },
+    {
+      "model": "llama3.2-3b",
+      "condition": "C1",
+      "question": "Before the Louisiana Purchase, what was the western boundary of the United States?",
+      "choices": [
+        "the Pacific Ocean",
+        "the Mississippi River",
+        "the Rocky Mountains",
+        "the Missouri River"
+      ],
+      "gold_answer": 1,
+      "predicted_answer": 1,
+      "is_correct": true,
+      "grade": "grade4",
+      "subject": "social science",
+      "topic": "us-history",
+      "skill": "The Louisiana Purchase",
+      "has_hint": false,
+      "response": "Answer: B\n\nThe western boundary of the United States before the Louisiana Purchase was the Mississippi River. The Louisiana Purchase, which took place in 1803, added a vast territory west of the Mississippi River to the United States, effectively doubling its size and setting the country's current western border.",
+      "lecture": "",
+      "hint": "",
+      "solution": "Before the Louisiana Purchase, the western boundary of the United States was the Mississippi River.\nThe old boundaries had been set in 1783, at the end of the Revolutionary War. In the Treaty of Paris, Britain gave the United States control of the western land south of the Great Lakes. The United States in 1783 stretched from the Atlantic Ocean to the Mississippi River."
+    },
+    {
+      "model": "llama3.2-3b",
+      "condition": "C1",
+      "question": "Which logical fallacy is used in the text?\nMayor Stanley wants to create more bicycle lanes in Fairview. However, many citizens of Fairview live far from work. It would not be realistic to force us to give up our cars and bike everywhere.",
+      "choices": [
+        "circular reasoning: an argument that supports a claim with the claim itself",
+        "straw man: a misrepresentation of an opponent's position that makes it easier to argue against",
+        "false causation: the assumption that because two things happened together, one caused the other"
+      ],
+      "gold_answer": 1,
+      "predicted_answer": 1,
+      "is_correct": true,
+      "grade": "grade11",
+      "subject": "language science",
+      "topic": "writing-strategies",
+      "skill": "Classify logical fallacies",
+      "has_hint": false,
+      "response": "Answer: B\n\nThe logical fallacy used in the text is straw man, as Mayor Stanley misrepresents his opponent's position by implying that he wants to force everyone to give up their cars and bike everywhere. In reality, the mayor is likely arguing for a more moderate approach, such as increasing bicycle lanes while still allowing citizens to use their cars when necessary. By exaggerating or distorting this argument, Mayor Stanley makes it easier to argue against his proposal, rather than engaging with the actual issue at hand.",
+      "lecture": "A strong argument uses valid reasoning and logic in support of a claim. When an argument or claim introduces irrelevant information or misrepresents the issues at hand, it may be committing a logical fallacy. Logical fallacies can hurt a writer's credibility and can lead readers to draw false conclusions.\nA logical fallacy may present irrelevant information:\nFallacy | Description\nad hominem | an attack against the person making the argument, rather than the argument itself\nappeal to nature | an argument that assumes the natural choice is always the best choice\nbandwagon fallacy | an argument that assumes the popular choice is always the best choice\ncircular reasoning | an argument that supports a claim with the claim itself\nguilt by association | an unfair negative association with another person or group that is intended to discredit someone or something\nA logical fallacy may misrepresent the issues at hand:\nFallacy | Description\nfalse causation | the assumption that because two things happened together, one caused the other\nfalse dichotomy | an argument that presents only two choices when more options exist\nhasty generalization | a broad claim based on too few observations\nslippery slope fallacy | the false assumption that a small first step will necessarily lead to extreme consequences\nstraw man | a misrepresentation of an opponent's position that makes it easier to argue against\n",
+      "hint": "",
+      "solution": "The text argues that Mayor Stanley wants people to give up their cars. However, this misrepresents Mayor Stanley's argument. Mayor Stanley only wants to create more bike lanes. This illustrates a type of logical fallacy known as a straw man."
+    }
+  ]
+}
